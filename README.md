@@ -29,3 +29,9 @@ GLOBAL OPTIONS:
    --help, -h  show help (default: false)
 
 ```
+
+# Usage 
+Following are some sample commands
+
+1. To login using sso and update your kubeconfig
+ibtcli aws eks-update-profile --profile <awsprofile> --cluster <clustername>
